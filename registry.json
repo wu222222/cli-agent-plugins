@@ -29,6 +29,26 @@
       "author": "wu22",
       "repo_path": "plugins/crypto_tls",
       "tags": ["security", "tls", "crypto", "lab", "compose"]
+    },
+    {
+      "name": "search",
+      "version": "1.0.0",
+      "description": "互联网搜索工具 — 通过 DuckDuckGo 搜索网页信息，无需 API Key",
+      "type": "exec",
+      "category": "search",
+      "author": "wu22",
+      "repo_path": "plugins/search",
+      "tags": ["search", "web", "duckduckgo"]
+    },
+    {
+      "name": "cpp_python_dev",
+      "version": "1.0.0",
+      "description": "C++/Python 开发环境 — 编译 C++ 代码和运行 Python 脚本",
+      "type": "exec",
+      "category": "shell",
+      "author": "wu22",
+      "repo_path": "plugins/cpp_python_dev",
+      "tags": ["dev", "cpp", "python", "compiler", "shell"]
     }
   ]
 }
