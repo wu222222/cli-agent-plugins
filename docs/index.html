@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safe-CLI-Agent 插件市场</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="logo">
+          <span class="logo-icon">🛡</span>
+          <h1>Safe-CLI-Agent <span class="subtitle">插件市场</span></h1>
+        </div>
+        <p class="desc">浏览、安装、管理你的 Agent 插件</p>
+      </div>
+    </header>
+
+    <!-- Search & Filter -->
+    <div class="toolbar">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+        </svg>
+        <input type="text" id="searchInput" placeholder="搜索插件..." />
+      </div>
+      <div class="filter-tags">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="exec">exec</button>
+        <button class="filter-btn" data-filter="compose">compose</button>
+        <button class="filter-btn" data-filter="command">command</button>
+        <button class="filter-btn" data-filter="local">local</button>
+      </div>
+    </div>
+
+    <!-- Plugin List -->
+    <div id="pluginList" class="plugin-list">
+      <div class="loading">加载中...</div>
+    </div>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="empty-state" style="display:none">
+      <span class="empty-icon">📦</span>
+      <p>没有找到匹配的插件</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        <a href="https://github.com/wu222222/cli-agent-plugins" target="_blank">GitHub 仓库</a>
+        ·
+        <a href="https://github.com/wu222222/cli-agent" target="_blank">Safe-CLI-Agent</a>
+        ·
+        <a href="https://github.com/wu222222/cli-agent/blob/main/plugin-guide.md" target="_blank">插件开发指南</a>
+      </p>
+      <p class="footer-sub">欢迎提交 PR 贡献你的插件</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
