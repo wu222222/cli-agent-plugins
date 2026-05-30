@@ -1,7 +1,7 @@
 // Safe-CLI-Agent 插件市场
 // 从 registry.json 加载插件列表，支持搜索和筛选
 
-const REGISTRY_URL = '../registry.json'
+const REGISTRY_URL = 'https://raw.githubusercontent.com/wu222222/cli-agent-plugins/main/registry.json'
 const REPO_BASE = 'https://github.com/wu222222/cli-agent-plugins'
 
 const ICON_MAP = {
