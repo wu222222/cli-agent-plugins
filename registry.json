@@ -1,0 +1,34 @@
+{
+  "plugins": [
+    {
+      "name": "kali",
+      "version": "1.0.0",
+      "description": "Kali Linux 渗透测试环境 — 内置 nmap、nikto、sqlmap、gobuster、hydra 等工具",
+      "type": "exec",
+      "category": "shell",
+      "author": "wu22",
+      "repo_path": "plugins/kali",
+      "tags": ["security", "pentest", "kali", "shell"]
+    },
+    {
+      "name": "ctf_lab",
+      "version": "1.0.0",
+      "description": "CTF 安全靶场环境 (3 个 flag) — 提交机 + 攻击机 + 靶机",
+      "type": "compose",
+      "category": "lab",
+      "author": "wu22",
+      "repo_path": "plugins/ctf_lab",
+      "tags": ["security", "ctf", "lab", "compose"]
+    },
+    {
+      "name": "crypto_tls",
+      "version": "1.0.0",
+      "description": "SEED Labs TLS 实验 — TLS 客户端/服务器/中间人攻击环境",
+      "type": "compose",
+      "category": "lab",
+      "author": "wu22",
+      "repo_path": "plugins/crypto_tls",
+      "tags": ["security", "tls", "crypto", "lab", "compose"]
+    }
+  ]
+}
